@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: linear-gradient(#00000065, #0000005f), url(A1.png);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.header h1 {
+  position: absolute;
+  left: 5%;
+  bottom: 48%;
+  overflow: hidden;
+  color: transparent;
+  font-size: 110px;
+  -webkit-text-stroke: 1px #fff;
+  font-family: "poppins", sans-serif;
+  margin-left: -10px;
+}
+
+.header p {
+  position: absolute;
+  left: 5%;
+  bottom: 31.7%;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  width: 60%;
+  line-height: 30px;
+}
+.header .button {
+  position: absolute;
+  left: 5%;
+  bottom: 19.7%;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+  width: 80%;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 12px;
+  border: 1px solid #fff;
+  width: 310px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.header .button:hover {
+  background-color: #f0f8ff1c;
+  transform: scale(0.9);
+}
+
+.header .button1 {
+  position: absolute;
+  left: 30%;
+  bottom: 19.7%;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+  width: 80%;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 12px;
+  border: 1px solid #fff;
+  width: 310px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.header .button1:hover {
+  background-color: #f0f8ff1c;
+  transform: scale(0.9);
+}
+
+.header .down-box {
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header .down-box i {
+  font-size: 25px;
+  color: #fff;
+  transition: color 0.5s;
+}
+
+.header .down-box:hover {
+  background-color: #ffffff16;
+  transform: scale(0.9);
+}
+
+.header .down-box1 {
+  position: absolute;
+  right: 3%;
+  bottom: 17%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header .down-box1 i {
+  font-size: 25px;
+  color: #fff;
+  transition: color 0.5s;
+}
+.header .down-box1:hover {
+  background-color: #ffffff16;
+  transform: scale(0.9);
+}
